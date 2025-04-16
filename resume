@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #0a1d37;
+}
+
+header {
+  background-color: #0a1d37;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+nav {
+  background-color: #f2f4f7;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0a1d37;
+  font-weight: bold;
+  position: relative;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #0a1d37;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills-list li {
+  display: inline-block;
+  background-color: #e0e7f1;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+footer {
+  background-color: #0a1d37;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
