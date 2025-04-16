@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakshi Satpathi – Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #ffffff;
+      color: #0a1f44;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #0a1f44;
+      color: white;
+    }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #eaeef4;
+      padding: 1rem 0;
+      list-style: none;
+    }
+    nav a {
+      color: #0a1f44;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #0056b3;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #0a1f44;
+      padding-bottom: 0.5rem;
+    }
+    .skills-list, ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    .projects li, .skills-list li {
+      transition: transform 0.3s;
+    }
+    .projects li:hover, .skills-list li:hover {
+      transform: scale(1.03);
+    }
+    footer {
+      text-align: center;
+      background-color: #0a1f44;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/file-3eKjnA46YkzYSsFVz9Zd4b" alt="Sakshi Satpathi">
+    <h1>Sakshi Satpathi</h1>
+    <p>Aspiring Management Consultant | B.Com (Hons) + BBA (2024–2027)</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Sakshi Satpathi, currently pursuing a dual degree in B.Com (Hons) from Amity University, Chhattisgarh (2024–2027), and BBA from IIM Bangalore (Online Degree Program, 2024–2027).
+      I aim to become a management consultant and am deeply passionate about business strategy, storytelling, and solving complex real-world problems.
+    </p>
+    <p>
+      I’m currently working on a research paper titled <em>"The Role of Design Thinking in Management Consulting"</em>. I enjoy bridging creativity with analytical thinking and decision-making. I have engaged with NGOs, participated in multiple consulting programs, and explored business models like Lijjat Papad and Amul. I thrive in dynamic environments where I can learn, lead, and contribute meaningfully.
+    </p>
+  </section>
+
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Com (Hons)</strong> – Amity University, Chhattisgarh (2024–2027)</li>
+      <li><strong>BBA (Online Degree)</strong> – IIM Bangalore (2024–2027)</li>
+    </ul>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Marketing Strategy</li>
+      <li>Graphic Design</li>
+      <li>Public Speaking</li>
+      <li>Social Impact</li>
+      <li>Research & Analysis</li>
+      <li>Consulting Case Solving</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Adify App Presentation:</strong> Designed a 12-page pitch deck for a small business advertising platform.</li>
+      <li><strong>Research Paper (Ongoing):</strong> The Role of Design Thinking in Management Consulting.</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:satpathisakshi@gmail.com">satpathisakshi@gmail.com</a></p>
+    <p>Phone: +91-9826904970</p>
+    <p>Location: Raipur, Chhattisgarh</p>
+    <p>GitHub: <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">github.com/YOUR_GITHUB_USERNAME</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sakshi Satpathi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
